@@ -11,6 +11,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Sets activity_main xml file as the layout
         setContentView(R.layout.activity_main);
     }
 

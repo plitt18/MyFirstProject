@@ -14,8 +14,13 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
     </application>
+    //Andorid phone starts by looking at the AndroidManifest.xml file
 
+    //LAUNCHER tells phone to go to MainActivity.java
+    //Line:(setContentView(R.layout.activity_main);
+    //MainActivity.java redirects to activity_main.xml
 </manifest>
